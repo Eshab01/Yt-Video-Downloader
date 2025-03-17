@@ -12,4 +12,7 @@ A simple YouTube video downloader built with Python using `yt-dlp` and `tkinter`
    ```bash
    git clone https://github.com/YourUsername/YT-Video-Downloader.git
    ```
-hjcvcsx
+2. Install dependencies:   
+   ```bash
+   pip install -r requirements.txt
+   ```
