@@ -1,1 +1,13 @@
-# Yt-Video-Downloader
+# YouTube Video Downloader
+
+A simple YouTube video downloader built with Python using `yt-dlp` and `tkinter`.
+
+## Features
+- Download videos in high quality
+- Choose download folder
+- User-friendly GUI
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YourUsername/YT-Video-Downloader.git
