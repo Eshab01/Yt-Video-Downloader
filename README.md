@@ -10,6 +10,7 @@ A simple YouTube video downloader built with Python using `yt-dlp` and `tkinter`
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Eshab01/Yt-Video-Downloader.git```
+   git clone https://github.com/Eshab01/Yt-Video-Downloader.git ```
+   
    ```bash
-   pip install -r requirements.txt```
+   pip install -r requirements.txt ```
