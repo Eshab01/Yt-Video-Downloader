@@ -6,15 +6,12 @@ import yt_dlp
 def download_video():
     url = url_entry.get()
     folder = folder_path.get()
-    
     if not url:
         messagebox.showerror("Error", "Please enter a YouTube URL")
         return
-    
     if not folder:
         messagebox.showerror("Error", "Please select a download folder")
         return
-    
     try:
         ydl_opts = {'outtmpl': f'{folder}/%(title)s.%(ext)s'}
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
@@ -44,7 +41,6 @@ tk.Label(app, text="Select Download Folder:").pack(pady=5)
 folder_path = tk.StringVar()
 folder_button = tk.Button(app, text="Choose Folder", command=select_folder)
 folder_button.pack(pady=5)
-
 folder_display = tk.Entry(app, textvariable=folder_path, width=50, state='readonly')
 folder_display.pack(pady=5)
 
